@@ -1,11 +1,22 @@
-import string
-import iteratools
-import functools
-import statistics
-import random
+import string , random , statistics , itertools
+import pandas as pd
+import numpy as np
+import math
+import matplotlib.pyplot as plt
+from sklearn.svm import SVM
+from sklearn import datasets
+from sklearn.metrics import classification_report , confusion_matrix
 
-class EstimateTree:
-    def __init__(self , est1: int , est2 : int):
-        self.est1 = est1
-        self.est2 = est2
-        print(f"the value of the first estimator is {est1} and also the value of the second estimator is {est2}")
+def data_classifier(x , y):
+    svm = SVM()
+#with binomial distribution we can calculate the probability of success or failure
+def BinomialDistribution(x , p , n ):
+    combination = itertools.combinations(n , x )
+    upper_exp = n - x
+    p1 = p ** x
+    p2 = 1 - p
+    binomial_distribution = combination * p1*(p2)**upper_exp
+    return binomial_distribution
+
+
+
