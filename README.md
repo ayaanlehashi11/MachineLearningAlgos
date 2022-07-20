@@ -18,3 +18,7 @@ qaybta supervised learning
 Halka labadan algorith ee dambe ay kamid yihiin 
 Unsupervised learning
 
+# OGEYSIIS
+Waa inad xisaab isku fiicantihiin
+Gaar ahan linear algebra , calculus , probability
+Iyo statistics.
